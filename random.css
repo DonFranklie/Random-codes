@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* .sample1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+} */
+
+.parent {
+    border: 2px solid #0074d9;
+    color: #0074d9;
+    padding: 20px;
+  }
+
+  .element {
+    border: 1px dotted #000;
+    background-color: #eee;
+    padding: 20px;
+    color: #000;
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  body, html {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
