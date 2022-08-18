@@ -4,64 +4,9 @@
     font-family: sans-serif;
 }
 
-.header{
-  min-height: 100vh;
-  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("../Images/banner.png");
-  background-position: center;
-  background-size: cover;
+.wrapper{
+  padding: 10px 20px;
 }
 
-nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem;
-}
 
-nav img{
-  width: 160px;
-}
-
-nav ul li{
-  list-style: none;
-  display: inline-block;
-  padding: 1.5rem;
-}
-
-nav ul li a{
-  color: white;
-  text-decoration: none;
-}
-
-nav ul li::after{
-  content: '';
-  background: #f44336;
-  display: block;
-  width: 0%;
-  height: 2px;
-  transition: 0.4s ease-in-out;
-}
-
-nav ul li:hover::after{
-  width: 100%;
-}
-
-.content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 90%;
-}
-
-.content h1{
-  color: white;
-  font-size: 3.8rem;
-}
-
-.content p{
-  color: white;
-  font-size: 14.5px;
-}
 
