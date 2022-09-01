@@ -8,6 +8,9 @@
 
 body{
   background-color: rgba(0, 0, 0, 0.267);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .flex-container-main{
