@@ -1,7 +1,9 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+// I WILL LOOK AT THIS LATER
 
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
+// const hamburger = document.querySelector(".hamburger");
+// const navMenu = document.querySelector(".nav-menu");
+
+// hamburger.addEventListener("click", () => {
+//     hamburger.classList.toggle("active");
+//     navMenu.classList.toggle("active");
+// })
