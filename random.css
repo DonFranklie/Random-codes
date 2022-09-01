@@ -2,4 +2,90 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.267);
+}
+
+.flex-container-main{
+  display: flex;
+  align-items: start;
+  margin: 10px;
+  gap: 15px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255);
+  padding: 10px;
+  max-width: 600px;
+}
+
+.flex-container-1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 7px;
+}
+
+.username{
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.first-name{
+  font-weight: bold;
+}
+
+.second-name{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.tweet-main{
+  line-height: 23px;
+  letter-spacing: .15px;
+  width: 450px;
+  margin-bottom: 15px;
+}
+
+.the-link{
+  display: flex;
+  align-items: center;
+  border: solid .05px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.empty{
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 120px;
+  width: 100px;
+  border-radius: 20px;
+
+}
+
+.not-empty{
+  line-height: 23px;
+  letter-spacing: .15px;
+  width: 270px;
+
+}
+
+.not-empty-1{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.not-empty-2{
+
+}
+
+
+
+.profile-pic{
+  height: 50px;
+  width: 49px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 22.5px;
 }
