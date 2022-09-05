@@ -2,4 +2,4 @@ Just random stuff am doing to perfect my skills in CSS, HTML  and a little of JS
 
 View of the Page:
 
-![](Images/Page-view.png)
+![](Images/Page-1-view.png)
