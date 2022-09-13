@@ -13,9 +13,13 @@ body{
 }
 
 .the-pic{
-  margin: 10px;
+  margin: 50px;
   position: relative;
-  
+  transition: transform .3s ease-in-out;
+}
+
+.the-pic:hover{
+  transform: translate(42px);
 }
 
 .the-pic img{
