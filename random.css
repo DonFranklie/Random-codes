@@ -10,85 +10,28 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 
-.the-pic{
-  margin-top: 40px;
-  position: relative;
-  transition: transform .15s ease-in-out;
-  display: inline-block;
-}
-
-.the-pic:hover{
-  transform: translateY(-42px);
-}
-
-.the-pic img{
-  width: 305px;
-  height: 400px;
-  cursor: pointer;
-  border-radius: 12px;
-}
-
-.container{
-  margin: 10px;
-}
-
-.image-container{
-  position: relative;
-}
-
-.image-container p{
-  color: white;  
-  position: absolute;
-  bottom: 20px;
-  left: 10px;
-  text-transform: uppercase;
-}
-
-.overlay{
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  /* width: 300px; */
-  width: 305px;
-  height: 400px;
-  padding: 10px 25px;
-  color: white;
-  cursor: pointer;
-  opacity: 0;
-  transition: opacity .7s ease-in-out;
-
-  border-radius: 12px;
-
-}
-
-.overlay:hover{
-  opacity: 1;
-}
-
-.overlay-sub{
-  position: relative;
+.glow-btn{
+  margin: 50px;
+  width: 250px;
+  height: 75px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-}
-
-.overlay-1{
-  position: absolute;
-  top: 0;
   text-align: center;
+  border: solid rgb(83, 137, 182);
+  padding: 10px 20px;
+  color: steelblue;
+  cursor: pointer;
+  font-size: 30px;
+  transition: all .3s;
 }
 
-.overlay-2{
-  display: inline-block;
-  position: absolute;
-  top: 350px;
-}
+.glow-btn:hover{
 
-.overlay-3{
-  position: absolute;
-  top: 200px;
-  text-align: center;
+  box-shadow: 0px 0px 50px rgb(54, 132, 199);
+  color: white;
+
 }
