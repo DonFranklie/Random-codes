@@ -2,12 +2,15 @@
 
 Just random stuff am doing to perfect my skills in CSS, HTML  and a little of JS (Because I have not yet started learning it)
 
+# Today's Make
+Today I created a Glowing Button named "Don Franklie"
+
 # Screenshots
 
-* Page when not hovering over 
+* Button when there is no hover over it.
 
 ![](Images/Page-view-1.png)
 
-* Page when Hovering
+* Button when hovered over.
 
 ![](Images/Page-view-2.png)
