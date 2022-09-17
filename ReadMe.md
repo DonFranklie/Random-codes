@@ -8,6 +8,8 @@ Just random stuff am doing to perfect my skills in CSS, HTML  and a little of JS
 Today I created an Animated Rotating box
 
 
-# Video
+# Screenshots
 
-[](Images/Page-view.webm)
+![](Images/Screenshot-1.png)
+
+![](Images/Screenshot-2.png)
