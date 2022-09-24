@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+  
+  body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box{
+    position: relative;
+    top: 200px;
+    width: 200px;
+    height: 200px;
+    border: 1.5px solid salmon;
+    border-radius: 20px;
+    animation: box 1.2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes box{
+    0% {
+          border-color: yellow;
+    }
+  
+    50% {
+        transform: rotate(180deg);
+        border-color: steelblue;
+    }
+  
+    100% { 
+        transform: rotate(360deg);
+        border-color: green;
+    }
+  }
+  
+  
