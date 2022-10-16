@@ -9,5 +9,4 @@ Today I made glassmorphic cards
 
 
 # Screenshots
-
-![](../CSS/Images/Screenshot.png)
+![](CSS/Images/Screenshot.png)
