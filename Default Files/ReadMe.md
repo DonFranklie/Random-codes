@@ -5,11 +5,9 @@ Just random stuff am doing to perfect my skills in CSS, HTML  and a little of JS
 
 
 # Today's Make
-Today I created an Responsive  Colorful Button
+Today I made glassmorphic cards
 
 
 # Screenshots
 
-![](Images/Screenshot-1.png)
-
-![](Images/Screenshot-2.png)
+![](../CSS/Images/Screenshot.png)
