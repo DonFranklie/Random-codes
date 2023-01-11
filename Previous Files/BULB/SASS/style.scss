@@ -7,41 +7,12 @@
     font-family: 'Barlow Condensed', sans-serif;
   }
 
- .main-content{
+ .main-container{
   margin: 20px;
-
-
-  .btn1{
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgba(0,0,0,0.6);
-    cursor: pointer;
-    color: white;
-    letter-spacing: 2px;
-    font-weight: 500;
-    font-size: 18px;
-    transition: color .2s;
-
-    &:hover{
-      color: yellow;
-    }
-  }
-
-  .btn2{
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgba(0,0,0,0.6);
-    cursor: pointer;
-    color: white;
-    letter-spacing: 2px;
-    font-weight: 500;
-    font-size: 18px;
-    transition: color .2s;
-
-    &:hover{
-      color: black;
-    }
-  }
+  padding: 100px;
  }
+
+ .btn{
+  padding: 10px 25px;
+  color: #fff;
+}

@@ -30,6 +30,7 @@
 
 .menu-item{
   list-style: none;
+  position: relative;
 }
 .menu-links{
   text-decoration: none;
@@ -37,8 +38,22 @@
   font-weight: bold;
 }
 
-.menu-links:hover{
-  color: black;
+.menu-links::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: tomato;
+  bottom: 0;
+  left: 0;
+  border-radius: 5px;
+  transition:  all .15s ease-in-out;
 }
+
+.menu-links:hover::after{
+
+  width: 100%;
+}
+
 
 

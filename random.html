@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random-Codes</title>
-    <link rel="stylesheet" href="/CSS/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <title>Menu</title>
 </head>
 <body>
  
-  <main class="main-content">
+ <article class="contact-form">
+    <p class="form-title">
+      Leave us your contacts
+    </p>
 
-    <button type="button" class="btn1" 
-    onclick="document.getElementById('bulb').src='/CSS/images/pic_bulbon.gif'"
-    >Turn On the Light</button>
+    <label for="first-name">First Name</label> <br>
+    <input type="text" name="first-name" id="first-name"> <br>
+    <label for="second-name">Second Name</label> <br>
+    <input type="text" name="second-name" id="second-name"> <br>
+    <label for="email">Email Address</label> <br>
+    <input type="email" name="email" id="email"> <br>
+    <label for="phone-number">Phone Number</label> <br>
+    <input type="tel" name="phone-number" id="phone-number"> <br>
 
-    <img src="/CSS/images/pic_bulboff.gif" alt="" id="bulb">
+    <input type="submit" value="SUBMIT" class="submit-btn">
 
-    <button type="button" class="btn2" onclick="document.getElementById('bulb').src='/CSS/images/pic_bulboff.gif'">Turn Off the Light</button>
-    
-  </main>
-
+ </article>
 </body>
 </html>

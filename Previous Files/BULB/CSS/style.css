@@ -6,36 +6,10 @@
   font-family: "Barlow Condensed", sans-serif;
 }
 
-.main-content {
+.main-container {
   margin: 20px;
+  padding: 100px;
 }
-.main-content .btn1 {
-  padding: 10px 15px;
-  border-radius: 5px;
-  border: none;
-  background-color: rgba(0, 0, 0, 0.6);
-  cursor: pointer;
-  color: white;
-  letter-spacing: 2px;
-  font-weight: 500;
-  font-size: 18px;
-  transition: color 0.2s;
-}
-.main-content .btn1:hover {
-  color: yellow;
-}
-.main-content .btn2 {
-  padding: 10px 15px;
-  border-radius: 5px;
-  border: none;
-  background-color: rgba(0, 0, 0, 0.6);
-  cursor: pointer;
-  color: white;
-  letter-spacing: 2px;
-  font-weight: 500;
-  font-size: 18px;
-  transition: color 0.2s;
-}
-.main-content .btn2:hover {
-  color: black;
+.main-container .btn {
+  padding: 10px 25px;
 }

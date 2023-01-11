@@ -5,21 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bulb</title>
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+
+ .container{
+  margin: 20px;
+  padding: 100px;
+ }
+
+ .btn{
+  padding: 8px 15px;
+  color: #000;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  background-color: gray;
+  display: block;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+.btn:hover{
+  color: rgb(61, 190, 22);
+}
+
+    </style>
 </head>
+
 <body>
  
-  <main class="main-content">
+<main class="container">
 
-    <button type="button" class="btn1" 
-    onclick="document.getElementById('bulb').src='/CSS/images/pic_bulbon.gif'"
-    >Turn On the Light</button>
+  <img src="/CSS/images/pic_bulboff.gif" alt="bulb is off" class="bulb">
 
-    <img src="/CSS/images/pic_bulboff.gif" alt="" id="bulb">
 
-    <button type="button" class="btn2" onclick="document.getElementById('bulb').src='/CSS/images/pic_bulboff.gif'">Turn Off the Light</button>
-    
-  </main>
+  <button class="btn" onclick="turnOn()">Turn On the bulb</button>
+</main>
 
+
+
+  <script>
+
+const image = document.querySelector('.bulb');
+const button = document.querySelector('.btn');
+function turnOn(){
+  if(image.src = "./CSS/images/pic_bulbon.gif"){
+  button.innerHTML = "Turn Off the Bulb";
+} else{
+  button
+}
+}
+
+
+  </script>
 </body>
 </html>
